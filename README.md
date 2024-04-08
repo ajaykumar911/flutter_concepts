@@ -135,3 +135,13 @@ Promotion:
 Promote your package through social media, developer forums, or any other relevant channels to increase its visibility and usage within the Dart community.
 
 Remember to adhere to Dart package publishing guidelines and best practices to ensure the quality and reliability of your package.
+
+# How to use my dart packages private and not show on pub dart lang?
+If you publish a package to https://pub.dartlang.org it will show up. There is no way around that.
+
+Alternatives.
+
+You can use path dependencies to packages stored on a local or network drive for example. Git dependencies to packages stored in a Git repository on a local or network drive hosted on GitHub, GitLab, or any other Git server run your own private Pub server.
+See also
+https://www.dartlang.org/tools/pub/dependencies
+https://github.com/dart-lang/pub_server
